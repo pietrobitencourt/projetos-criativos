@@ -20,7 +20,7 @@ Dê dois cliques em `index.html`.
 3. Em *Build and deployment*, escolha **Deploy from a branch**, branch **main** e pasta **/ (root)**, e clique em **Save**.
 4. Em 1 ou 2 minutos o link aparece nessa mesma tela: `https://pietrobitencourt.github.io/coracao_love/`
 
-   Link: https://pietrobitencourt.github.io/coracao_love/
+🔗 **Demonstração:** https://pietrobitencourt.github.io/coracao_love/coracao/****
 
 Quem abrir o link vê a animação uma vez. Para repetir, é só recarregar a página.
 (Se quiser que tocar no coração repita a animação, troque `replayOnTap: false` por `true` no começo de `js/script.js`.)
