@@ -45,7 +45,7 @@ Cada projeto fica na sua própria pasta, com `index.html` e `README.md` próprio
 
 1. Vá em **Settings → Pages**.
 2. Em *Build and deployment*, escolha **Deploy from a branch**, branch **main** e pasta **/ (root)**, e clique em **Save**.
-3. Em 1 ou 2 minutos o site fica no ar em `https://pietrobitencourt.github.io/coracao_love/`.
+3. Em 1 ou 2 minutos o site fica no ar em `https://pietrobitencourt.github.io/projetos-criativos/`.
 
 ## Autor
 
