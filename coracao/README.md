@@ -5,7 +5,7 @@
 Um coração formado por "eu te amo" em vários idiomas, com animação de entrada.
 Feito com HTML, CSS e JavaScript puro (sem nenhuma biblioteca externa) e também em Python.
 
-🔗 **Demonstração:** https://pietrobitencourt.github.io/coracao_love/coracao/
+🔗 **Demonstração:** https://pietrobitencourt.github.io/projetos-criativos/coracao/
 
 ## Tecnologias
 
@@ -58,7 +58,7 @@ python love.py
 1. No repositório, vá em **Settings → Pages**.
 2. Em *Build and deployment*, escolha **Deploy from a branch**, branch **main** e pasta **/ (root)**, e clique em **Save**.
 3. Em 1 ou 2 minutos o site fica no ar. Cada projeto abre pelo nome da sua pasta:
-   `https://pietrobitencourt.github.io/coracao_love/coracao/`
+   `https://pietrobitencourt.github.io/projetos-criativos/coracao/`
 
 > Se este projeto ficar sozinho em um repositório, o `index.html` precisa estar na raiz dele.
 
