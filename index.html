@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos criativos</title>
+
+  <meta name="description" content="Pequenos projetos criativos feitos com código.">
+  <meta property="og:title" content="Projetos criativos">
+  <meta property="og:description" content="Pequenos projetos criativos feitos com código.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://pietrobitencourt.github.io/coracao_love/coracao/img/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#050008">
+
+  <style>
+    :root {
+      --fundo: #050008;
+      --cartao: #12091a;
+      --borda: #2a1a35;
+      --texto: #f3e9ee;
+      --suave: #b9a7b3;
+      --destaque: #ff3355;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--fundo);
+      color: var(--texto);
+      font-family: "Segoe UI", system-ui, -apple-system, "Noto Sans", sans-serif;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 4rem 1.25rem;
+    }
+
+    h1 {
+      margin: 0 0 .5rem;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+    }
+
+    .subtitulo {
+      margin: 0 0 2.5rem;
+      color: var(--suave);
+      font-size: 1.05rem;
+    }
+
+    /* Grade de projetos: 1 coluna no celular, mais colunas em telas maiores */
+    .projetos {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .cartao {
+      display: block;
+      overflow: hidden;
+      background: var(--cartao);
+      border: 1px solid var(--borda);
+      border-radius: 14px;
+      color: inherit;
+      text-decoration: none;
+      transition: transform .2s ease, border-color .2s ease;
+    }
+
+    .cartao:hover,
+    .cartao:focus-visible {
+      transform: translateY(-4px);
+      border-color: var(--destaque);
+    }
+
+    .cartao img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1200 / 630;
+      object-fit: cover;
+      background: #000;
+    }
+
+    .cartao .info { padding: 1rem 1.1rem 1.2rem; }
+    .cartao h2 { margin: 0 0 .4rem; font-size: 1.15rem; }
+    .cartao p { margin: 0 0 .8rem; color: var(--suave); font-size: .95rem; line-height: 1.45; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: .4rem; }
+    .tags span {
+      padding: .15rem .55rem;
+      border: 1px solid var(--borda);
+      border-radius: 999px;
+      color: var(--suave);
+      font-size: .78rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      color: var(--suave);
+      font-size: .9rem;
+    }
+
+    footer a { color: var(--destaque); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Projetos criativos 💻❤</h1>
+    <p class="subtitulo">Pequenos projetos feitos com código. Escolha um para abrir.</p>
+
+    <div class="projetos">
+
+      <!-- Para adicionar um projeto novo, copie este bloco inteiro
+           (de <a> até </a>) e troque o link, a imagem e os textos. -->
+      <a class="cartao" href="coracao/">
+        <img src="coracao/img/preview.png" alt="Coração formado por eu te amo em vários idiomas">
+        <div class="info">
+          <h2>Coração de "eu te amo"</h2>
+          <p>Um coração formado por "eu te amo" em vários idiomas, com animação de entrada.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span></div>
+        </div>
+      </a>
+
+    </div>
+
+    <footer>
+      Código no <a href="https://github.com/pietrobitencourt/coracao_love">GitHub</a>.
+    </footer>
+  </main>
+</body>
+</html>
