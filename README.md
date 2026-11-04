@@ -1,14 +1,14 @@
-# Projetos criativos 💻❤
+# Projetos criativos 💻
 
 Uma coleção de pequenos projetos criativos feitos com código: animações, visualizações e experimentos que rodam direto no navegador.
 
-🔗 **Página inicial:** https://pietrobitencourt.github.io/coracao_love/
+🔗 **Página inicial:** https://pietrobitencourt.github.io/projetos-criativos/
 
 ## Projetos
 
 | Projeto | O que é | Tecnologias | Demonstração |
 |---|---|---|---|
-| [Coração de "eu te amo"](coracao/) | Um coração formado por "eu te amo" em vários idiomas, com animação de entrada | HTML, CSS, JavaScript, Python | [Abrir](https://pietrobitencourt.github.io/coracao_love/coracao/) |
+| [Coração de "eu te amo"](coracao/) | Um coração formado por "eu te amo" em vários idiomas, com animação de entrada | HTML, CSS, JavaScript, Python | [Abrir](https://pietrobitencourt.github.io/projetos-criativos/coracao/) |
 
 ![Prévia do coração](coracao/img/preview.gif)
 
